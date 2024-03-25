@@ -1,0 +1,52 @@
+:root {
+  --purple-font: rgb(100,0,100);
+  --greenish-font: rgb(0,110,90);
+  --lilac-font: rgb(150,100,200);
+}
+
+body {
+  background: radial-gradient( pink, orange, pink, orange);
+}
+
+.palindrome {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1, h2 {
+  color: var(--greenish-font);
+  text-align: center;
+}
+
+p {
+  color: var(--purple-font);
+  text-align: justify;
+}
+
+li, label {
+  color: var(--lilac-font);
+  font-weight: bold;
+}
+
+div, input {
+  display: block;
+  padding: 30;
+  margin-top: 1em;
+}
+
+#text-input {
+  background-color: transparent;
+  color: var(--purple-font);
+}
+
+#check-btn {
+  margin: 1em;
+  background-color: transparent;
+  color: var(--greenish-font);
+  font-weight: bold;
+}
+
+#result {
+  color: var(--greenish-font);
+  font-weight: bold;
+}

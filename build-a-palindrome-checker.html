@@ -1,0 +1,62 @@
+<!--Indicate document type -->
+<!DOCTYPE html>
+<!--Iniciate html doc, indicate doc language-->
+<html lang="en">
+
+<!--Begin header: Include charset, mobile specifications, title, link to CSS file-->
+<header>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <link
+    rel="stylesheet"
+    href="./styles.css"
+  />
+    <title>Palindrome Checker</title>
+</header>
+<!--End header-->
+
+<!--Begin body: Include body of the page, link to JS file-->
+<body>
+  <main>
+    <h1>Welcome to <span class="palindrome">Palindrome Checker!</span></h1>
+    <p>
+      A palindrome is an alphanumeric expression that spells the same way forward and backward, without considering punctuation, spacing, case or other symbols. Some examples of <span class="palindrome">palindromes</span> are:
+    </p>
+    <ul>
+      <li>My gym</li>
+      <li>No lemon, no melon</li>
+      <li>Step on no pets</li>
+      <li>Racecar</li>
+      <li>12344544321</li>
+    </ul>
+    <h2>Now try it your self!</h2>
+    <p>
+      Write an expression: in the black box and use the <span class="palindrome">Palindrome Checker</span> to see if your expression is a <span class="palindrome">Palindrome</span>.
+    </p>
+    <div class="container">
+      <label for="text-input">
+        Write an expression
+      </label>
+      <input
+        class="input"
+        id="text-input"
+        type="text"
+        />
+        <button
+          class="btn"
+          id="check-btn">
+          Check
+        </button>
+        <div
+          class="results"
+          id="result">
+        </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+<!--End body-->
+</html>
